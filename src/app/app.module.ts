@@ -14,6 +14,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { IngredientComponent } from './components/ingredient/ingredient.component';
 import { RecipeComponent } from './components/recipe/recipe.component';
 import { RecipesComponent } from './features/recipes/recipes.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { RecipesComponent } from './features/recipes/recipes.component';
     IngredientComponent,
     RecipeComponent,
     HeaderComponent,
+    DropdownDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
